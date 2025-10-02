@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#container {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    background-image: url(./background\ image.jpg);
+    background-size: cover;
+    filter: drop-shadow(0 0 10px black);
+
+
+}
+
+#picture-panel {
+    width: 140px;
+    height: 200px;
+
+}
+
+#picture {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-top: 50px;
+    border-radius: 100%;
+    margin-left: 20px;
+
+}
+
+#info-panel {
+    width: 260px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+#info {
+    margin-top: 60px;
+    width: 260px;
+    height: 200px;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif align-items: center;
+}
+
+h4 {
+    margin: 0;
+}
